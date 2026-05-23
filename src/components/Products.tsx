@@ -2,28 +2,24 @@ import React from "react";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 
-import mriImage from "../assets/images/mri_machine_slider_1779559707594.png";
-import xrayImage from "../assets/images/xray_machine_slider_1779559724793.png";
-import ctScannerImage from "../assets/images/medical_scanner_slider_1779559741753.png";
-
 const products = [
   {
     id: "mri-series-x",
     name: "MRI Series X-Pro",
     category: "Magnetic Resonance",
-    image: mriImage,
+    image: "/images/mri_machine_slider_1779559707594.png",
   },
   {
     id: "ct-scan-ultra",
     name: "CT Scan Ultra 360",
     category: "Computed Tomography",
-    image: ctScannerImage,
+    image: "/images/medical_scanner_slider_1779559741753.png",
   },
   {
     id: "xray-digital-dr",
     name: "Digital DR X-Ray System",
     category: "Radiography",
-    image: xrayImage,
+    image: "/images/xray_machine_slider_1779559724793.png",
   },
 ];
 
