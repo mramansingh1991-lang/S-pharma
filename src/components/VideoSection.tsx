@@ -2,8 +2,6 @@ import React from "react";
 import { motion } from "motion/react";
 import { PlayCircle } from "lucide-react";
 
-import ctScannerImage from "../assets/images/medical_scanner_slider_1779559741753.png";
-
 export function VideoSection() {
   return (
     <section id="videos" className="py-24 bg-muted border-y border-border">
@@ -22,7 +20,7 @@ export function VideoSection() {
             className="group relative rounded-sm overflow-hidden aspect-video bg-black cursor-pointer shadow-lg border border-border"
           >
             <img
-              src={ctScannerImage}
+              src="/images/medical_scanner_slider_1779559741753.png"
               alt="Corporate Video"
               className="w-full h-full object-cover opacity-60 group-hover:opacity-40 transition-opacity duration-300"
               referrerPolicy="no-referrer"
