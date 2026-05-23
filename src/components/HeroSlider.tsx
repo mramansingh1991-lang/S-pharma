@@ -2,28 +2,24 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import mriImage from "../assets/images/mri_machine_slider_1779559707594.png";
-import xrayImage from "../assets/images/xray_machine_slider_1779559724793.png";
-import ctScannerImage from "../assets/images/medical_scanner_slider_1779559741753.png";
-
 const slides = [
   {
     id: 1,
-    image: mriImage,
+    image: "/images/mri_machine_slider_1779559707594.png",
     title: "Advanced MRI Solutions",
     subtitle: "High-Resolution Magnetic Resonance Imaging Systems",
     description: "Experience unparalleled clarity and precision in diagnostic imaging with our state-of-the-art MRI machines.",
   },
   {
     id: 2,
-    image: ctScannerImage,
+    image: "/images/medical_scanner_slider_1779559741753.png",
     title: "Next-Gen CT Scanners",
     subtitle: "Ultra-Fast Computed Tomography",
     description: "Empowering clinicians with rapid, low-dose scanning technology for accurate and timely diagnoses.",
   },
   {
     id: 3,
-    image: xrayImage,
+    image: "/images/xray_machine_slider_1779559724793.png",
     title: "Precision X-Ray Systems",
     subtitle: "Digital Radiography at its Finest",
     description: "Reliable, high-fidelity digital X-ray solutions designed for modern clinical workflows and patient comfort.",
